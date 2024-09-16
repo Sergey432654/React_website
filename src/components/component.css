@@ -1,0 +1,38 @@
+.Main-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.information {
+    width: 50%; 
+    padding: 0;
+    margin: 0;
+}
+
+.im1, .im2 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.im1 img, .im2 img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+}
+
+.im1 img:hover, .im2 img:hover {
+    filter: grayscale(0%);
+}
+
+
+
